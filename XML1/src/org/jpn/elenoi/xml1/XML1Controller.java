@@ -33,7 +33,6 @@ public class XML1Controller {
             e.printStackTrace();
         }
 
-
         XMLOutputter xout = new XMLOutputter(Format.getCompactFormat());
         FileOutputStream fos = null;
         try {
